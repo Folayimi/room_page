@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;    
+}
+.displayCont{
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+}
+.displayCont > .room{
+    display: flex;
+    flex:1 1 30em;    
+    height:60vh;
+    justify-content: space-between;
+}
+.displayCont > .room img{
+    width:100%;
+    height: 100%;
+}
+.displayCont > .room .toggleD{
+    position: absolute;    
+    width:10%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top:53vh;
+    margin-left:46vw;   
+}
+.displayCont > .room .toggleD > .left{
+    width:50%;
+    height:100%;
+    padding:0.5em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayCont > .room .toggleD > .left:hover{
+    background:rgb(37, 36, 36);
+    cursor:pointer;
+}
+.displayCont > .room .toggleD > .right{
+    width:50%;
+    height:100%;
+    padding:0.5em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayCont > .room .toggleD > .right:hover{
+    background:rgb(37, 36, 36);
+    cursor:pointer;
+}
+.displayCont > .room .toggleM{
+    position: absolute;    
+    width:25%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top:53vh;
+    margin-left:75%;        
+}
+.displayCont > .room .toggleM > .left{
+    width:50%;
+    height:100%;
+    padding:0.5em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayCont > .room .toggleM > .left:hover{
+    background:rgb(37, 36, 36);    
+}
+.displayCont > .room .toggleM > .right{
+    width:50%;
+    height:100%;
+    padding:0.5em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayCont > .room .toggleM > .right:hover{
+    background:rgb(37, 36, 36);    
+}
+.displayCont > .Details{
+    flex: 0 1 25em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;        
+    padding: 3em 1.5em 3em 1.5em;
+    gap:1em;
+    font-family: Arial;    
+}
+.displayCont > .Details h1{
+    font-size: 1.8rem;
+}
+.displayCont > .Details p{
+    font-size: 0.8rem;
+}
+.Details > .Shop{    
+    width:100%;     
+    display:flex;    
+    justify-content: flex-start;
+    align-items: center;
+    gap:1.5em;
+}
+.Details > .Shop p{
+    letter-spacing: 0.5em;
+    font-weight: bolder;
+}
+.dispOrder{
+    width: 100%;
+    display:flex;    
+    flex-wrap:wrap;                
+    justify-content: center;   
+}
+.dispOrder > .dark{        
+    flex: 1 1 15em;            
+}
+.dispOrder > .light{
+    flex: 1 1 15em;    
+}
+.dispOrder > .dark img{
+    width:100%;
+    height:100%;
+}
+.dispOrder > .light img{
+    width:100%;
+    height:100%;
+}
+.dispOrder > .abtFun{    
+    margin: 1.5em;
+    flex: 0 1 18em;       
+    display:flex;
+    flex-direction:column; 
+    align-items: center;
+    font-family: Arial;  
+    gap:1em;    
+}
+.dispOrder > .abtFun h1{
+    font-size: 0.9rem;
+    letter-spacing: 0.3em;
+    font-weight: bolder;
+}
+.dispOrder > .abtFun p{
+    font-size: 0.8rem;
+}
